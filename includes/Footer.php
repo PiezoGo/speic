@@ -1,24 +1,24 @@
 <div class="footer">    
     <div class="contact">   
-        <h6>Contact Us</h6>
-        <span>Mail us through <b>spiceups@spice.ac.ke</b></span>
-        <span>Call us.+254711344699</span>
+        <h6>Contact Us</h6><hr>
+        <span>Mail us through <b>spiceups@spice.ac.ke</b></span><br>
+        <span>Call us.+254711344699</span><br>
         <span>Follow us in our social media platforms</span>   
     </div>
 
     <div class="shortcuts">
-        <h6>Account</h6>
-        <span>Log in</span>
-        <span>Sign up</span>
-        <span>Your Spices</span>
+        <h6>Account</h6><hr>
+        <span>Samples</span><br>
+        <span>Ideas</span><br>
+        <span>Your Spices</span><br>
         <span>Projects</span>
     </div>
 
     <div class="about">
-        <h6>Quick Links</h6>
-        <span>Terms and Condition</span>
-        <span>Privacy Policy</span>
-        <span>FAQ</span>
+        <h6>Quick Links</h6><hr>
+        <span>Terms and Condition</span><br>
+        <span>Privacy Policy</span><br>
+        <span>FAQ</span><br>
         <span>Help centre</span>
     </div>
 </div>

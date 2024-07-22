@@ -1,0 +1,76 @@
+*{
+    font-size: 25px;
+
+}
+/* The styling of the navbar starts here */
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+
+}
+.navbar span{
+    padding-top: 20px;
+    font-size: 25px;
+
+}
+.navbar ul{
+    display: flex;
+
+}
+
+.navbar ul a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li{
+    list-style-type: none;
+    padding: 7px 30px;
+    font-size: 25px;
+}
+/* Styling of the navbar ends here */
+/* styling of the footer starts here */
+.footer{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+
+}
+.footer h6{
+    font-size: 26px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.footer span{
+    font-size: 21px;
+    margin: 20px;
+}
+/* styling of the footer ends here */
+/* This is the styling of the projects page */
+h6{
+    margin: 20px;
+}
+.projects{
+    display: flex;
+    flex: wrap;
+
+}
+.projects .project{
+    margin-left: 30px;
+}
+.projects .project span{
+    background-color: none;
+}
+.projects .project button{
+    margin-top: 300px;
+    margin-left: 350px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: tomato;
+    color: white;
+    font-size: 18px;
+}
+
+/* The styling of the project page ends here */

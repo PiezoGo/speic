@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Spice</title>
+    <link rel="stylesheet" href="./resources/CSS/styles.css">
 </head>
 <body>
-    <ul>
-        <li>Project</li>
-        <li>Services</li>
-        <li>Reach Out</li>
-        <li>About</li>
-    </ul>
-</body>
+    <div class="navbar">
+            <span>Code Name: Piezo</span>
+        <ul>
+            <li><a href="Project.php">Projects</a></li>
+            <li><a href="Services.php">Services</a></li>
+            <li><a href="Reachout.php">Reach Out</a></li>
+            <li><a href="about.php">About</a></li>
+        </ul>
+    </div>
 </html>
