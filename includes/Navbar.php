@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="navbar">
-            <span>Code Name: Piezo</span>
+            <span>Portfolio</span>
         <ul>
             <li><a href="Project.php">Projects</a></li>
             <li><a href="Services.php">Services</a></li>
@@ -16,4 +16,4 @@
             <li><a href="about.php">About</a></li>
         </ul>
     </div>
-</html>
+</body>
