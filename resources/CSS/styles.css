@@ -16,7 +16,7 @@
     margin-top: 25px;
 }
 .home .spice{
-    background-color: rgb(21, 189, 255);
+    background-color: rgb(236, 160, 146);
     height: 350px;
     margin-left: 200px;
     border-radius: 10px;
@@ -24,7 +24,7 @@
     
 }
 .home .spice button{
-    background-color: gold;
+    background-color: goldenrod;
     padding: 10px 20px;
     border-radius: 8px;
     margin: 80px 30px;
