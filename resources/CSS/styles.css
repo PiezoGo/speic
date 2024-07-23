@@ -23,7 +23,7 @@
     margin-top: 25px;
 }
 .home .spice{
-    background-color: whitesmoke;
+    background-color: white;
     height: 500px;
     margin-left: 200px;
     border-radius: 10px;
@@ -43,7 +43,7 @@
     background-color: goldenrod;
     padding: 10px 20px;
     border-radius: 8px;
-    margin: 50px 400px;
+    margin: 40px 350px;
 }
 .home .spice button:hover{
     background-color:goldenrod;
@@ -58,8 +58,9 @@
     width: 45%;
     padding-top: 20px;
 }
-.home .more .skills svg{
-    font-size: 30px;
+.home .more .skills li{
+    font-size: 28px;
+    margin-top: 8PX;
 }
 /* Styling of the Home page ends here */
 /* The styling of the navbar starts here */

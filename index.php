@@ -12,10 +12,10 @@
             <div class="skills">
                 <h6>Skills</h6>
                 <ul>
-                    <li>Javascript</li>
-                    <li>BootStrap</li>
-                    <li>React</li>
-                    <li>Cascading Stylesheet</li>
+                    <li style="color:gold;">JS</li>
+                    <li style="color:purple; ">B</li>
+                    <li style="color:skyblue; "><img src="./image/images.png" alt="React" style="width:30px; height:30px; margin: 0px"></li>
+                    <li style="color:skyblue; "><img src="./image/css.png" alt="CSS" style="width:50px; height:30px; margin: 0px"></li>
                 </ul>
             </div>
             <div class="Hobbies">
