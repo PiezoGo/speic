@@ -1,3 +1,4 @@
+<body id="Home">
 <?php include "./includes/Navbar.php" ?>
 <?php include "./includes/Header.php" ?>
 <div class="home">
@@ -7,7 +8,6 @@
         <span>Front-End Website Developer.</span>
         <span>Michael is a well known Front-End web developer. 
             He peculiar in his renown skills in BootStrap, Javascript and Designing outstanding Websites.</span>
-       <br> <button type="Submit">Make a Booking.</button>
         <div class="more">
             <div class="skills">
                 <h6>Skills</h6>
@@ -28,6 +28,7 @@
                 </ul>
             </div>
         </div>
+        <br> <button type="Submit">Make a Booking.</button>
      </div>
     
 </div>

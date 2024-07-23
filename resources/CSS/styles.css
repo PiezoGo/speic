@@ -31,42 +31,55 @@
 }
 .home .more{
     display: flex;
+    padding: 30px;
+}
+.home .more .skills{
+    width: 45%;
+    padding-top: 20px;
 }
 /* Styling of the Home page ends here */
 /* The styling of the navbar starts here */
 .navbar{
     display: flex;
     width: 100%;
-    justify-content: space-between;
     height: 70px;
     position: fixed;
     align-items: center;
     margin-top: 0px;
     padding-left: 30PX;
-
+    justify-content: space-around;
 }
-.navbar span{
-    /* padding-top: 8px; */
-    font-size: 32px;
 
-}
 .navbar ul{
     display: flex;
     padding-right: 30PX;
-
 
 }
 
 .navbar ul a{
     text-decoration: none;
-    color: black;
+    color: rgb(23, 168, 23);
     font-size: 32px;
 
 }
 .navbar ul li{
     list-style-type: none;
-    padding-left: 30px;
-    padding-right: 30px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    border-radius: 20px;
+    padding:6px 15px;
+    margin-left: 30px;
+
+
+}
+.navbar ul li:hover{
+    background-color:rgb(23, 168, 23) ;
+    padding:6px 15px;
+    font-size: 32px;
+}
+.navbar ul li a:hover{
+    color: white;
+
 }
 /* Styling of the navbar ends here */
 /* styling of the footer starts here */
