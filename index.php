@@ -4,9 +4,9 @@
 <div class="home">
     <img src="./image/ME.JPG" alt="A picture of Michael">
     <div class="spice">
-        <p>Mr. Michael Ochieng'</p>
-        <span>Front-End Website Developer.</span>
-        <span>Michael is a well known Front-End web developer. 
+        <p class="name">Mr. Michael Ochieng'</p>
+        <span style="padding-left: 30px; padding-bottom:20px;">Front-End Website Developer.</span><br>
+        <span class="Me">Michael is a well known Front-End web developer. 
             He peculiar in his renown skills in BootStrap, Javascript and Designing outstanding Websites.</span>
         <div class="more">
             <div class="skills">

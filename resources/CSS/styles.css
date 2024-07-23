@@ -4,6 +4,13 @@
     margin: 0;
 
 }
+#Home{
+    background-image: url(BACK1.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;    
+}
+
 /* This is the styling of the Home page */
 .home{
     padding: 100px;
@@ -23,11 +30,25 @@
     padding: 50px;
     
 }
+.home .spice .name{
+    text-align:center;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.home .spice .Me{
+    text-align: center;
+    padding-top: 30px;
+}
 .home .spice button{
     background-color: goldenrod;
     padding: 10px 20px;
     border-radius: 8px;
-    margin: 80px 30px;
+    margin: 50px 400px;
+}
+.home .spice button:hover{
+    background-color:goldenrod;
+    transform: scale(1.05);
+    opacity: 1;
 }
 .home .more{
     display: flex;
@@ -36,6 +57,9 @@
 .home .more .skills{
     width: 45%;
     padding-top: 20px;
+}
+.home .more .skills svg{
+    font-size: 30px;
 }
 /* Styling of the Home page ends here */
 /* The styling of the navbar starts here */
@@ -48,6 +72,7 @@
     margin-top: 0px;
     padding-left: 30PX;
     justify-content: space-around;
+    background-color: rgb(189, 186, 186);
 }
 
 .navbar ul{
@@ -58,7 +83,7 @@
 
 .navbar ul a{
     text-decoration: none;
-    color: rgb(23, 168, 23);
+    color: white;
     font-size: 32px;
 
 }
@@ -73,7 +98,7 @@
 
 }
 .navbar ul li:hover{
-    background-color:rgb(23, 168, 23) ;
+    background-color:goldenrod ;
     padding:6px 15px;
     font-size: 32px;
 }
