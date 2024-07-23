@@ -8,7 +8,8 @@
     background-image: url(BACK1.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.8;    
+    opacity: 0.8;
+    background-attachment:fixed;
 }
 
 /* This is the styling of the Home page */
@@ -24,7 +25,7 @@
 }
 .home .spice{
     background-color: white;
-    height: 500px;
+    height: 800px;
     margin-left: 200px;
     border-radius: 10px;
     padding: 50px;
@@ -35,15 +36,11 @@
     font-size: 30px;
     padding-bottom: 20px;
 }
-.home .spice .Me{
-    text-align: center;
-    padding-top: 30px;
-}
 .home .spice button{
     background-color: goldenrod;
     padding: 10px 20px;
     border-radius: 8px;
-    margin: 40px 350px;
+    margin: 30px 400px;
 }
 .home .spice button:hover{
     background-color:goldenrod;
@@ -52,15 +49,51 @@
 }
 .home .more{
     display: flex;
-    padding: 30px;
+    padding: 5px 20px;
 }
 .home .more .skills{
     width: 45%;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 .home .more .skills li{
     font-size: 28px;
     margin-top: 8PX;
+}
+.home .more .skills li .JS{
+    display: none;
+}
+
+.home .more .skills li:hover .JS{
+    display: flex;
+    color: goldenrod;
+    transition: 1s ease;
+}
+.home .more .skills li .B{
+    display: none;
+}
+
+.home .more .skills li:hover .B{
+    display: flex;
+    color: rgb(141, 15, 141);
+    transition: 1s ease;
+}
+.home .more .skills li .R{
+    display: none;
+}
+
+.home .more .skills li:hover .R{
+    display: flex;
+    color: skyblue;
+    transition: 1s ease;
+}
+.home .more .skills li .CSS{
+    display: none;
+}
+
+.home .more .skills li:hover .CSS{
+    display: flex;
+    color: rgb(41, 137, 216);
+    transition: 1s ease;
 }
 /* Styling of the Home page ends here */
 /* The styling of the navbar starts here */
@@ -128,7 +161,8 @@
 /* styling of the footer ends here */
 /* This is the styling of the projects page */
 h6{
-    margin: 20px;
+    padding-top: 100PX;
+    /* padding: 20px; */
 }
 .projects{
     display: flex;
@@ -136,7 +170,7 @@ h6{
 
 }
 .projects .project{
-    margin-left: 30px;
+    padding-left: 30px;
 }
 .projects .project span{
     background-color: none;
