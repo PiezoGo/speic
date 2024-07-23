@@ -190,3 +190,48 @@ h6{
 }
 
 /* The styling of the project page ends here */
+/* The Stling of the SeRVICES PAGE STARTS HERE */
+#Serve{
+    background-image: url(back6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    background-attachment:fixed;
+}
+#Serve .all{
+    padding-top: 80px;
+}
+#Serve .all .what{
+    height: 350px;
+    width: 450px;
+    background-color: gold;
+    border-radius: 50px;
+    margin-left: 250px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+#Serve .all .what span{
+    font-size: 60px;
+    font-weight: 800;
+
+}
+#Serve .all .Service{
+    height: 500px;
+    width: 1000px;
+    background-color: rgb(109, 198, 233);
+    border-radius: 50px;
+    margin-left: 600px;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: -70px;
+}
+#Serve .all .Service p{
+    font-size: 60px;
+    font-weight: 800;
+}
+#Serve .all .Services{
+    font-size: 60px;
+    font-weight: 800;
+}
+/* The styling of the Services page ends here */
