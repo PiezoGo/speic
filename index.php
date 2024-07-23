@@ -8,7 +8,7 @@
         <span>Michael is a well known Front-End web developer. 
             He peculiar in his renown skills in BootStrap, Javascript and Designing outstanding Websites.</span>
        <br> <button type="Submit">Make a Booking.</button>
-       <div class="more">
+        <div class="more">
             <div class="skills">
                 <h6>Skills</h6>
                 <ul>
@@ -27,8 +27,9 @@
                     <li>Swimming</li>
                 </ul>
             </div>
-       </div>
-    </div>
+        </div>
+     </div>
+    
 </div>
 <?php include "./includes/Footer.php" ?>
 

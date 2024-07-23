@@ -1,6 +1,6 @@
 *{
     font-size: 25px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Josefin Sans", sans-serif;;
     margin: 0;
 
 }
@@ -16,8 +16,8 @@
     margin-top: 25px;
 }
 .home .spice{
-    background-color: rgb(236, 160, 146);
-    height: 350px;
+    background-color: whitesmoke;
+    height: 500px;
     margin-left: 200px;
     border-radius: 10px;
     padding: 50px;
@@ -28,6 +28,9 @@
     padding: 10px 20px;
     border-radius: 8px;
     margin: 80px 30px;
+}
+.home .more{
+    display: flex;
 }
 /* Styling of the Home page ends here */
 /* The styling of the navbar starts here */
@@ -41,11 +44,10 @@
     margin-top: 0px;
     padding-left: 30PX;
 
-
 }
 .navbar span{
     /* padding-top: 8px; */
-    font-size: 25px;
+    font-size: 32px;
 
 }
 .navbar ul{
@@ -58,11 +60,12 @@
 .navbar ul a{
     text-decoration: none;
     color: black;
+    font-size: 32px;
+
 }
 .navbar ul li{
     list-style-type: none;
     padding-left: 30px;
-    font-size: 25px;
     padding-right: 30px;
 }
 /* Styling of the navbar ends here */
